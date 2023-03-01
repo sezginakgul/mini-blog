@@ -5,6 +5,8 @@ const dataSlice = createSlice({
 
   initialState: {
     api: null,
+    loading: false,
+    error: false,
   },
 
   reducers: {
